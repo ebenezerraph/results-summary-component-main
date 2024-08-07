@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <style>
+    @font-face {
+      font-family: 'HankenGrotesk';
+      src: url('./assets/fonts/HankenGrotesk.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body
+  class="transition-all ease-in-out duration-400 font-hg h-screen laptop:w-fit laptop:mx-auto laptop:px-3 laptop:flex laptop:items-center laptop:justify-center">
+  <div class="laptop:w-full laptop:flex laptop:flex-col laptop:items-center laptop:justify-center">
+    <main
+      class="mb-[0.625rem] laptop:flex laptop:shadow-lg laptop:flex-row h-fit laptop:h-[22.813rem] box-border laptop:w-[33.125rem] laptop:rounded-3xl">
+
+      <div
+        class="min-h-[21.875rem] laptop:h-full bg-gradient-to-b from-light_slate_blue to-light_royal_blue p-[1.875rem] text-center w-full laptop:w-1/2 laptop:rounded-3xl rounded-b-3xl text-white flex flex-col items-center justify-between">
+        <div class="opacity-75">Your Result</div>
+        <div
+          class="bg-gradient-to-b rounded-full flex flex-col justify-center items-center w-36 h-36 from-violet_blue to-transparent">
+          <div class="text-5xl font-black">76</div>
+          <div class="text-xs opacity-50">of 100</div>
+        </div>
+        <div class="mb-2">
+          <div class="text-2xl mb-2">Great</div>
+          <div class="text-xs w-10/12 mx-auto opacity-75">You scored higher than 65% of the people who have taken these
+            tests.</div>
+        </div>
+      </div>
+
+      <div
+        class="min-h-[21.875rem] laptop:h-full font-semibold flex flex-col justify-between text-dark_gray_blue p-[1.875rem] w-full laptop:w-1/2">
+        <div class="font-bold">Summary</div>
+        <div>
+          <div
+            class="text-xs h-10 px-3 items-center mb-3 w-full flex flex-row bg-opacity-5 bg-light_red justify-between rounded-lg">
+            <span class="flex items-center flex-row text-light_red"><img class="mr-2 size-4"
+                src="assets/images/icon-reaction.svg" alt="">Reaction</span>
+            <span><span>80</span><span class="opacity-75"> / 100</span></span>
+          </div>
+          <div
+            class="text-xs h-10 px-3 items-center mb-3 w-full flex flex-row bg-opacity-5 bg-orangey-yellow justify-between rounded-lg">
+            <span class="flex items-center flex-row text-orangey-yellow"><img class="mr-2 size-4"
+                src="assets/images/icon-memory.svg" alt="">Memory</span>
+            <span><span>92</span><span class="opacity-75"> / 100</span></span>
+          </div>
+          <div
+            class="text-xs h-10 px-3 items-center mb-3 w-full flex flex-row bg-opacity-5 bg-green_teal justify-between rounded-lg">
+            <span class="flex items-center flex-row text-green_teal"><img class="mr-2 size-4"
+                src="assets/images/icon-verbal.svg" alt="">Verbal</span>
+            <span><span>61</span><span class="opacity-75"> / 100</span></span>
+          </div>
+          <div
+            class="text-xs h-10 px-3 items-center w-full flex flex-row bg-opacity-5 bg-cobalt_blue justify-between rounded-lg">
+            <span class="flex items-center flex-row text-cobalt_blue"><img class="mr-2 size-4"
+                src="assets/images/icon-visual.svg" alt="">Visual</span>
+            <span><span>72</span><span class="opacity-75"> / 100</span></span>
+          </div>
+        </div>
+        <button
+          class="hover:bg-gradient-to-b hover:from-violet_blue hover:to-light_royal_blue text-xs font-medium rounded-full h-10 bg-dark_gray_blue text-white w-full">Continue</button>
+      </div>
+    </main>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/ebenezerraph" target="_blank">Ebenezer Raphael</a>.
+    </div>
+  </div>
+</body>
+
+</html>
