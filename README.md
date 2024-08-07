@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/ebenezerraph/)
-- Live Site URL: [Add live site URL here](https://ebenezerraph.github.io/)
+- Solution URL: [GitHub](https://github.com/ebenezerraph/results-summary-component-main/)
+- Live Site URL: [Results summary component solution](https://ebenezerraph.github.io/results-summary-component-main/)
 
 ## My process
 
