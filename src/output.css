@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.9 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -588,6 +588,11 @@ video {
   height: 1rem;
 }
 
+.size-5 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -605,12 +610,76 @@ video {
   height: 100vh;
 }
 
-.h-\[21\.875rem\] {
-  height: 21.875rem;
+.h-\[rem\] {
+  height: rem;
+}
+
+.h-\[12\.5rem\] {
+  height: 12.5rem;
+}
+
+.h-\[400\] {
+  height: 400;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[5rem\] {
+  height: 5rem;
+}
+
+.h-\[25rem\] {
+  height: 25rem;
+}
+
+.h-\[3\.438rem\] {
+  height: 3.438rem;
+}
+
+.h-\[8\.75rem\] {
+  height: 8.75rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-\[12rem\] {
+  height: 12rem;
+}
+
+.h-\[11\.5rem\] {
+  height: 11.5rem;
+}
+
+.h-\[11rem\] {
+  height: 11rem;
 }
 
 .min-h-\[21\.875rem\] {
   min-height: 21.875rem;
+}
+
+.min-h-\[rem\] {
+  min-height: rem;
+}
+
+.min-h-\[25rem\] {
+  min-height: 25rem;
+}
+
+.min-h-\[27\.5rem\] {
+  min-height: 27.5rem;
+}
+
+.min-h-\[27rem\] {
+  min-height: 27rem;
+}
+
+.min-h-\[26rem\] {
+  min-height: 26rem;
 }
 
 .w-10\/12 {
@@ -623,6 +692,38 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[12\.5\] {
+  width: 12.5;
+}
+
+.w-\[12\.5rem\] {
+  width: 12.5rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[8\.75\] {
+  width: 8.75;
+}
+
+.w-\[8\.75rem\] {
+  width: 8.75rem;
+}
+
+.w-\[12rem\] {
+  width: 12rem;
+}
+
+.w-\[11\.5rem\] {
+  width: 11.5rem;
+}
+
+.w-\[11rem\] {
+  width: 11rem;
 }
 
 .flex-row {
@@ -739,6 +840,46 @@ video {
   line-height: 1rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-7xl {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -813,6 +954,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.hover\:from-light_slate_blue:hover {
+  --tw-gradient-from: hsl(252, 100%, 67%) var(--tw-gradient-from-position);
+  --tw-gradient-to: hsl(252 100% 67% / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .hover\:to-light_royal_blue:hover {
   --tw-gradient-to: hsl(241, 81%, 54%) var(--tw-gradient-to-position);
 }
@@ -835,6 +982,14 @@ video {
     height: 100%;
   }
 
+  .laptop\:h-\[31\.25rem\] {
+    height: 31.25rem;
+  }
+
+  .laptop\:h-\[12\.5rem\] {
+    height: 12.5rem;
+  }
+
   .laptop\:w-1\/2 {
     width: 50%;
   }
@@ -850,6 +1005,18 @@ video {
 
   .laptop\:w-full {
     width: 100%;
+  }
+
+  .laptop\:w-\[46rem\] {
+    width: 46rem;
+  }
+
+  .laptop\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .laptop\:w-\[12\.5rem\] {
+    width: 12.5rem;
   }
 
   .laptop\:flex-row {
@@ -875,6 +1042,26 @@ video {
   .laptop\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
+  }
+
+  .laptop\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .laptop\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .laptop\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .laptop\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .laptop\:shadow-lg {
